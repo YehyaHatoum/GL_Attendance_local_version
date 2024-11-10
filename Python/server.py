@@ -14,3 +14,8 @@ def takeAttendance():
     res = "res..."
 
     return Response(res, status=200, mimetype='application/json')
+
+@app.route('/StudentImages', methods=['POST'])
+def StudentImages():
+    # Logic...
+    return None
