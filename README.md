@@ -18,3 +18,6 @@ This core feature builds on top of the previous sub-systems to allow the user to
 
 ## Raspberry Pi integration: 
 Adding a feature to submit class images via installed raspberry Pi camera modules capturing and sending images via SSH directly to the server.
+
+## Manual Attendance taking: 
+This option allows professors to manually check students as present or absent, this includes correcting previous attendance reports in case of inaccuracies in the face recognition model
