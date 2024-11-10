@@ -4,6 +4,6 @@ const router = express.Router();
 
 const upload = multer({ dest: 'uploads/' });
 
-router.post('/attendance/phone', upload.single('image'), takeAttendanceViaPhone);
+router.post('/attendance/class', upload.single('image'), takeAttendanceViaRasp);
 
 module.exports = router;

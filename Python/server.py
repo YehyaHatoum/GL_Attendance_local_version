@@ -19,3 +19,8 @@ def takeAttendance():
 def StudentImages():
     # Logic...
     return None
+
+@app.route('/ClassImage', methods=['POST'])
+def ClassImage():
+    # Logic...
+    return None
