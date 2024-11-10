@@ -15,3 +15,6 @@ This sub-system will handle the logic behind capturing student images via a self
 
 ## Phone Camera Attendance:
 This core feature builds on top of the previous sub-systems to allow the user to submit images of a classroom via the phone’s camera and get an attendance report back via email.
+
+## Raspberry Pi integration: 
+Adding a feature to submit class images via installed raspberry Pi camera modules capturing and sending images via SSH directly to the server.
