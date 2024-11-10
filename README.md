@@ -21,3 +21,6 @@ Adding a feature to submit class images via installed raspberry Pi camera module
 
 ## Manual Attendance taking: 
 This option allows professors to manually check students as present or absent, this includes correcting previous attendance reports in case of inaccuracies in the face recognition model
+
+## Admin Website: 
+An admin website will be provided last, this adds the option to create accounts by bulk, allowing universities to submit a list of all their students where accounts will be created for them and passwords will be sent via email. Moreover, the admin will be able to manage courses and their ownership.
