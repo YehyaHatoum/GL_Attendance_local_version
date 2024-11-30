@@ -1,0 +1,9 @@
+stages:
+  - unittest
+
+unit-test-job:
+  stage: unittest
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "refactoring_python_server"'
+  script:
+    - python3 -m unittest
